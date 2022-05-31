@@ -1,0 +1,144 @@
+.box{
+    display:flex;
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0px;
+    flex-direction: column; 
+    background-image: url("picture3.jpg");
+    background-size: cover;
+    background-position: center;
+    /* justify-content: center; */
+    /* align-items:stretch; */
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+}
+header{
+    display: flex;
+    /* flex-direction:row ; */
+    height:16vh;
+ justify-content: space-around;
+ align-content:space-between;
+    
+
+}
+.heading{font-family: 'Fira Sans', sans-serif;
+    color:rgb(217, 233, 233);
+    /* border:0.2vh solid red; */
+    
+    width:50vw;
+    margin:1vh auto ;
+    align-self: center; 
+    text-align: center;
+    
+
+}
+
+
+
+img{
+    width:8vw;
+    height: 13vh;
+}
+.icon{
+    align-self:center;
+    /* position: relative; */
+    /* top: 20px; */
+    /* left: 11px; */
+    color:aliceblue
+}
+nav{
+    background-color:  #aed0e2;
+    /* align-self: center; */
+    display:flex;
+    max-height: 14vh;
+    
+    /* justify-content: flex-start; */
+    
+}
+section{
+ align-self: flex-start;
+ display:flex;
+ max-height: 40vh;
+}
+footer{
+    justify-content: flex-start;
+    display:inline-block;
+    width:auto;
+
+
+}
+
+.nav{
+    /* border:0.2vw solid red; */
+    overflow: auto;
+     margin:1vh ; 
+    max-width: 60vw;
+    height:10px;
+    
+
+}
+.nav li{
+    list-style-type:none;
+    display:inline-block;
+    margin:3px 4px;
+
+}
+nav a{
+    text-decoration:none ;
+    margin:5px 10px;
+    padding: 2px 2px;
+    border:2px solid  #9191f1;
+    background-color:  #3c0a75;
+    opacity:0.5;
+    padding:3px;
+    margin:4px;
+    color: white;
+}
+a:hover{
+    color:black;
+    opacity:0.3;
+    color:rgb(218, 252, 69);
+    /* background-color:rgba(255,0,0,0.2) */
+}
+.input{
+    /* border:0.2vw solid red; */
+    /* margin:50px 2px; */
+    position:absolute;
+    top: 34vh;
+    left: 10vw;
+    align-self:flex-end;
+    width:30vw;
+    overflow: auto;
+    color:rgb(17 29 37);
+    background-color:#c58787;
+    box-shadow: 3px 2px 5px #d8d893;
+    border-radius:0 22px 0  ;
+}
+.input input{
+    display:block;
+    margin: 8px auto;
+    border-radius: 7px;
+    width: 80%;
+}
+input[type="submit"]{
+    color:red;
+    margin:4px auto;
+    width:40%;
+}
+.contact{
+    position:absolute;
+    top: 48vh;
+    right: 3vw;
+    /* border:2px solid red; */
+    color:white;
+    width:30vw;
+}
+.add{
+    /* border:0.2vh solid red; */
+    /* margin:30px auto; */
+    position:absolute;
+    bottom:0;
+    align-self:flex-end;
+    color:yellow;
+}
